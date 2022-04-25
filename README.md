@@ -9,13 +9,21 @@
 3、项目目录如下所示：
 ![image](https://user-images.githubusercontent.com/49582349/165081150-52889869-d9a7-44f4-a058-0e588eb6b0e0.png)
 
-com.shop.entity： 中的是一些JavaBean，部分与数据库的表对应
+com.shop.entity： 是相关JavaBean，部分与数据库的表对应
+
 com.shop.dao 中的是数据库相关的操作, 使用 jdbc 连接数据库
+
 com.shop.service：相关service
+
 com.shop.utils： 一些工具类
+
 com.shop.web ：对应的 servlet
 
 \web\pages：相关页面，jsp
+
 \web\static：相关静态文件
+
 \web\WEB-INF\lib：相关依赖
+
 \web\WEB-INF\web.xml：相关的映射关系
+
