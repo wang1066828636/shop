@@ -2,7 +2,8 @@
 SQLyog Ultimate v12.09 (64 bit)
 MySQL - 5.5.54-log : Database - db_shop
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -69,25 +70,6 @@ CREATE TABLE `t_order_item` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `t_order_item` */
-
-/*Table structure for table `t_shop` */
-
-DROP TABLE IF EXISTS `t_shop`;
-
-CREATE TABLE `t_shop` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) DEFAULT NULL,
-  `price` decimal(11,2) DEFAULT NULL,
-  `author` varchar(100) DEFAULT NULL,
-  `sales` int(11) DEFAULT NULL,
-  `stock` int(11) DEFAULT NULL,
-  `img_path` varchar(200) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
-
-/*Data for the table `t_shop` */
-
-insert  into `t_shop`(`id`,`name`,`price`,`author`,`sales`,`stock`,`img_path`) values (1,'java入门','80.00','周星星',9999,9,'static/img/default.jpg'),(2,'数据结构与算法','78.50','严敏君',6,13,'static/img/default.jpg'),(3,'木虚肉盖饭','16.00','周星星',1000,50,'static/img/default.jpg'),(4,'桌子','45.50','周星星',14,95,'static/img/default.jpg'),(5,'蛋炒饭','9.90','周星星',12,53,'static/img/default.jpg'),(6,'椅子','99.50','周星星',47,36,'static/img/default.jpg'),(7,'数据结构 java版','173.15','周星星',21,81,'static/img/default.jpg'),(8,'java入门','80.00','周星星',9999,9,'static/img/default.jpg'),(9,'java入门','80.00','周星星',9999,9,'static/img/default.jpg'),(10,'数据结构与算法','78.50','严敏君',6,13,'static/img/default.jpg'),(11,'木虚肉盖饭','16.00','周星星',1000,50,'static/img/default.jpg'),(12,'桌子','45.50','周星星',14,95,'static/img/default.jpg'),(13,'蛋炒饭','9.90','周星星',12,53,'static/img/default.jpg'),(14,'椅子','99.50','周星星',47,36,'static/img/default.jpg'),(15,'数据结构 java版','173.15','周星星',21,81,'static/img/default.jpg');
 
 /*Table structure for table `t_user` */
 
