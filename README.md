@@ -42,5 +42,6 @@ com.shop.web ：对应的 servlet
 
 然后启动项目即可：登录用户名密码如下：
 
-![image](https://user-images.githubusercontent.com/49582349/165297311-9bc2b2ee-3483-4b31-afe8-d4d854ab905f.png)
+![image](https://user-images.githubusercontent.com/49582349/165297486-4d316a41-7a10-4fe5-9812-fbf491be22e8.png)
+
 
