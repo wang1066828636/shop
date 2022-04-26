@@ -31,7 +31,8 @@ com.shop.web ：对应的 servlet
 
 1、使用 MySQL；创建数据库 db_shop，及相关表，sql放在 MySQL/db_shop.sql 里
 
-![image](https://user-images.githubusercontent.com/49582349/165080566-1abc3d98-f00b-4ae3-96ff-b93fabc258f8.png)
+![image](https://user-images.githubusercontent.com/49582349/165296603-b2dbe8c3-0046-4a39-85ce-ef5e8d81ec47.png)
+
 
 2、tomcat 配置：
 
